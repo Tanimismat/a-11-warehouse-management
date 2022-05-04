@@ -14,8 +14,8 @@ const Banner = () => {
                     src="https://cdn.motor1.com/images/mgl/MGlA8/s3/long-beach-blue-pearl---acura.jpg"
                     alt="First slide"
                 />
-                <Carousel.Caption>
-                    <h3>Welcome to AAA AUTO</h3>
+                <Carousel.Caption className='card-img-overlay'>
+                    <h3>Welcome to Automotive</h3>
                     <p>Get exclusive offers fast </p>
                     <p>Volume discount for traders </p>
                     <button>Become a partner</button>
@@ -29,7 +29,7 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>Welcome to AAA AUTO</h3>
+                    <h3>Welcome to Automotive</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
