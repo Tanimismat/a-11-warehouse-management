@@ -10,6 +10,7 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <InventorySection></InventorySection>
+            <button className='d-block mx-auto'>Manage Inventories</button>
             <Footer></Footer>
         </div>
     );

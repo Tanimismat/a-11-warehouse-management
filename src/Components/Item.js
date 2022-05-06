@@ -1,7 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 const Item = (props) => {
-    const { name, img, description, price, quantity, supplier } = props.item;
+    const { id, name, img, description, price, quantity, supplier } = props.item;
+    const navigate = useNavigate()
+    const handleManageInventory = (id) => {
+        navigate(`/inventory/${id}`);
+    }
     return (
         <div>
             <div className="card-group">
@@ -16,7 +22,7 @@ const Item = (props) => {
 
                     </div>
                     <div className="card-footer">
-                        <button>Update</button>
+                        <button onClick={() => handleManageInventory(id)}>Manage</button>
                     </div>
                 </div>
             </div>

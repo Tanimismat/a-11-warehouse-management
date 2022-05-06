@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/HomePage/Home';
-import InventoryItems from './Components/InventoryItems';
+import ItemDetail from './Components/ItemDetail';
 import Login from './Components/Login';
 import NotFound from './Components/NotFound';
 
@@ -10,6 +10,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/home' element={<Home />}></Route>
+        <Route path='/inventory/:id' element={<ItemDetail />}></Route>
+        <Route path='/manage' element={<ItemDetail />}></Route>
+        {/* <Route path='/add' element={}></Route>
+        <Route path='/myitems' element={} ></Route> */}
         <Route path='/login' element={<Login />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>

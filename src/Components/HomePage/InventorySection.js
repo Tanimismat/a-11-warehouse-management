@@ -11,6 +11,7 @@ const InventorySection = () => {
             {
                 items.map(item => <Item key={id} item={item}></Item>).slice(1, 7)
             }
+
         </div>
     );
 };
