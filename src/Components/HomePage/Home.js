@@ -7,11 +7,11 @@ import InventorySection from './InventorySection';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+
             <Banner></Banner>
             <InventorySection></InventorySection>
             <button className='d-block mx-auto'>Manage Inventories</button>
-            <Footer></Footer>
+
         </div>
     );
 };

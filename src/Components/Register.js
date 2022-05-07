@@ -26,6 +26,9 @@ const Register = () => {
 
         createUserWithEmailAndPassword(email, password);
     }
+    if (user) {
+        navigate('/home')
+    }
 
     const navigateToLogin = () => {
         navigate('/login');
