@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../firebase.init';
 
 const Register = () => {
@@ -10,7 +10,8 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
+    const [updateProfile, updating, error1] = useUpdateProfile(auth);
 
     const nameRef = useRef('');
     const emailRef = useRef('');
@@ -18,16 +19,20 @@ const Register = () => {
 
     const navigate = useNavigate();
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
+        const name = nameRef.current.value;
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
         console.log(email, password);
 
-        createUserWithEmailAndPassword(email, password);
+        await createUserWithEmailAndPassword(email, password);
+        await updateProfile({ displayName: name })
+        // navigate('/home')
     }
+
     if (user) {
-        navigate('/home')
+        console.log(user)
     }
 
     const navigateToLogin = () => {
@@ -39,7 +44,7 @@ const Register = () => {
         <div>
             <h3>register</h3>
             <Form onClick={handleSubmit}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Group className="mb-3" controlId="formBasicName">
                     <Form.Label>Name</Form.Label>
                     <Form.Control ref={nameRef} type="text" placeholder="Name" />
                 </Form.Group>
