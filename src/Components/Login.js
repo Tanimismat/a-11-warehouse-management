@@ -4,7 +4,9 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import auth from '../firebase.init';
+import Loading from './Loading';
 import SocialLogin from './SocialLogin';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const [
@@ -43,6 +45,10 @@ const Login = () => {
     if (user) {
         navigate(from, { replace: true });
     }
+
+    // if (loading || sending) {
+    //     return <Loading></Loading>
+    // }
 
     const resetPassword = async () => {
         const email = emailRef.current.value;
