@@ -24,21 +24,25 @@ const Header = () => {
                             <Nav.Link as={Link} to="/">Home</Nav.Link>
                             <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                         </Nav>
-                        <Nav>
-                            <Nav.Link as={Link} to="/manage">Manage Items</Nav.Link>
-                        </Nav>
-                        <Nav>
-                            <Nav.Link as={Link} to="/add">Add Item</Nav.Link>
-                        </Nav>
-                        <Nav>
-                            <Nav.Link as={Link} to="/myitems">My Items</Nav.Link>
-                        </Nav>
+                        {
+                            user &&
+                            <>
+                                <Nav>
+                                    <Nav.Link as={Link} to="/manage">Manage Items</Nav.Link>
+                                </Nav>
+                                <Nav>
+                                    <Nav.Link as={Link} to="/add">Add Item</Nav.Link>
+                                </Nav>
+                                <Nav>
+                                    <Nav.Link as={Link} to="/myitems">My Items</Nav.Link>
+                                </Nav>
+                            </>
+                        }
 
                         {
-                            user ?
-                                <Nav>
-                                    <Nav.Link onClick={handleLogOut}>Log out</Nav.Link>
-                                </Nav>
+                            user ? <Nav>
+                                <Nav.Link onClick={handleLogOut}>Log out</Nav.Link>
+                            </Nav>
                                 :
                                 <Nav>
                                     <Nav.Link as={Link} to="/login">Log in</Nav.Link>
