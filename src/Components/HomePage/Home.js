@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ExtraSection1 from '../ExtraSection1';
 import ExtraSection2 from '../ExtraSection2';
 import Banner from './Banner';
@@ -12,7 +13,7 @@ const Home = () => {
 
             <Banner></Banner>
             <InventorySection></InventorySection>
-            <button className='d-block mx-auto'>Manage Inventories</button>
+            <button className='d-block mx-auto'><Link to='/inventory/:id'>Manage Inventories</Link></button>
             <ExtraSection2></ExtraSection2>
             <ExtraSection1></ExtraSection1>
 
