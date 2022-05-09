@@ -3,80 +3,80 @@
         "id": "62734a51d069bd06c5caad76",
         "img": "https://i.ibb.co/PmR0Tk6/car-1.jpg",
         "name": "Porsche Cayenne GTS Sport Utility SUV",
-        "description": "Another place on the Cayenne model range starting grid has now been taken - with intense performance and precise dynamics.The Cayenne Turbo GT has all the attributes to be ahead of the game from the start.",
+        "description": "Another place on the Cayenne model range starting grid has now been taken - with intense performance and precise dynamics. ",
         "price": "102,995",
         "supplier": "Hella KGaA Hueck & Co.",
-        "quantity": "2",
+        "quantity": "10",
         "Stock Number": "590497"
     },
     {
         "id": "62734a5100f9b671d0557847",
         "img": "https://i.ibb.co/pKCDhtT/car-2.jpg",
         "name": "Porsche Boxster Base Red Convertible",
-        "description": "Nisi velit exercitation aliquip est minim aliquip. Excepteur eiusmod excepteur reprehenderit non et cillum labore sint ipsum amet Lorem laborum. Officia proident incididunt laborum excepteur cupidatat pariatur. Consequat exercitation cupidatat irure minim incididunt aute quis aliqua pariatur. Aliqua consequat ut nisi fugiat sunt ipsum irure. Reprehenderit dolore eu dolor ad adipisicing ut ad est. Cillum aliqua proident ad ipsum consequat ad.\r\n",
+        "description": "The convertible variant of the first 356 became a legend, as did its descendent, the Porsche 550 Spyder.",
         "price": "34,995",
         "supplier": "New Auto Galaxy",
-        "quantity": "3",
+        "quantity": "10",
         "Stock Number": "590476"
     },
     {
         "id": "62734a51fc07ff252aa4fed6",
         "img": "https://i.ibb.co/PNj22vx/car-3.jpg",
         "name": "Porsche Panamera GTS Sedan",
-        "description": "Laboris nulla consectetur ex aute. Velit qui enim Lorem aliqua proident cillum excepteur. Non ad excepteur est et irure Lorem veniam ad nulla do nisi do aliquip sit. Dolore incididunt aliquip non nisi veniam tempor ad et. Nostrud amet ut et eiusmod eu adipisicing nisi adipisicing veniam culpa. Proident quis in pariatur magna veniam laborum id.\r\n",
+        "description": "Whether Panamera, Panamera Executive or Panamera Sport Turismo - the silhouette and proportions are unmistakably Porsche. ",
         "price": "82,995",
         "supplier": "New Auto Galaxy",
-        "quantity": "1",
+        "quantity": "10",
         "Stock Number": "590421"
     },
     {
         "id": "62734a51f50461b3eb1e0c19",
         "img": "https://i.ibb.co/QpPYYLw/car-4.jpg",
         "name": "Porsche Carrera 4S All-Wheel Drive",
-        "description": "Deserunt enim commodo reprehenderit est proident fugiat reprehenderit amet nulla voluptate sit dolore dolor. Duis in et aliquip officia sit consectetur. Sunt dolore mollit anim irure enim adipisicing consectetur sint enim dolore amet esse eiusmod labore. Eu non do labore officia. Occaecat ipsum et labore cillum nisi irure dolore amet sunt elit.\r\n",
+        "description": "The base model equipped with all-wheel drive. ",
         "price": "73,995",
         "supplier": "New Auto Galaxy",
-        "quantity": "1",
+        "quantity": "10",
         "Stock Number": "590435"
     },
     {
         "id": "62734a519d312ef8ec229686",
         "img": "https://i.ibb.co/dBG0npK/car-5.jpg",
         "name": "Porsche 911 Carrera S Convertible",
-        "description": "Esse laboris anim sit et nulla proident minim ut laborum enim est. Cupidatat nulla velit aliquip nisi ut voluptate. Veniam ea ea nisi enim in occaecat pariatur mollit ex. Laborum ut veniam sunt ea pariatur aute minim exercitation nulla dolore cupidatat. Dolor aute aliqua id quis. Ex est esse sunt nostrud veniam ut.\r\n",
+        "description": "The 911 is an icon in every sense among sports cars with more than seven decades of heritage.",
         "price": "85,995",
         "supplier": "NK Car Paradise",
-        "quantity": "2",
+        "quantity": "10",
         "Stock Number": "590499"
     },
     {
         "id": "62734a51ecef01df24b5ca1a",
         "img": "https://i.ibb.co/dfBfg1t/car-6.jpg",
         "name": "Porsche GTS Panamera Demonstrator",
-        "description": "Dolor cupidatat sunt consectetur eu enim sint mollit ex officia. Do proident commodo est commodo. Elit dolore sit do sunt veniam minim veniam magna commodo cupidatat. Quis consectetur velit incididunt qui non voluptate ad sint est ut sit voluptate sunt. Cupidatat et do consectetur consequat occaecat magna amet eiusmod cupidatat. Laborum elit veniam sint non aliqua excepteur dolor labore in quis amet.\r\n",
+        "description": "Whether Panamera, Panamera Executive or Panamera Sport Turismo - the silhouette and proportions are unmistakably Porsche. ",
         "price": "94,995",
         "supplier": "NK Car Paradise",
-        "quantity": "4",
+        "quantity": "10",
         "Stock Number": "590412"
     },
     {
         "id": "62734a5153ad755e66eea72c",
         "img": "https://i.ibb.co/CV7wGCw/car-7.jpg",
         "name": "Porsche Cayenne GTS Sport Utility",
-        "description": "Dolor fugiat non ullamco ad eu exercitation esse fugiat magna laboris esse amet cupidatat est. Aliquip minim mollit cillum ad dolor sunt magna mollit eu nostrud dolore consequat. Ea pariatur incididunt quis ad proident voluptate qui consectetur dolore nulla cillum ullamco reprehenderit.\r\n",
+        "description": "The 4.0-liter twin-turbo V-8 under the hood produces 453 hp from 6,000-6,500 rpm and 457 lb-ft of torque from 1,800 rpm all the way to 4,500 rpm.",
         "price": "114,995",
         "supplier": "NK Car Paradise",
-        "quantity": "5",
+        "quantity": "10",
         "Stock Number": "590424"
     },
     {
         "id": "62734a51eb9dd10cfc1d3302",
         "img": "https://i.ibb.co/NYbqy0z/car-8.jpg",
         "name": "Porsche GTS Executive Edition",
-        "description": "Velit sit ad minim aliquip anim cupidatat fugiat do. Nisi cillum reprehenderit ex aliquip minim adipisicing culpa. Et non anim amet qui eiusmod Lorem est nisi.\r\n",
+        "description": "Whether Panamera, Panamera Executive or Panamera Sport Turismo - the silhouette and proportions are unmistakably Porsche. ",
         "price": "99,995",
         "supplier": "NK Car Paradise",
-        "quantity": "5",
+        "quantity": "10",
         "Stock Number": "590488"
     },
     {
@@ -86,7 +86,7 @@
         "description": "The 718 models were made for the sport of it.",
         "price": "35,995",
         "supplier": "Hella KGaA Hueck & Co.",
-        "quantity": "2",
+        "quantity": "10",
         "Stock Number": "590478"
     }
 ]

@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import Blogs from './Components/Blogs';
 import Footer from './Components/HomePage/Footer';
 import Header from './Components/HomePage/Header';
 import Home from './Components/HomePage/Home';
@@ -23,6 +24,7 @@ function App() {
         <Route path='/manage' element={<ItemDetail />}></Route>
         {/* <Route path='/add' element={}></Route>
         <Route path='/myitems' element={} ></Route> */}
+        <Route path='/blog' element={<Blogs />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
         <Route path='*' element={<NotFound />}></Route>

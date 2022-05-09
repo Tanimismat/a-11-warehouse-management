@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 const Item = (props) => {
-    const { id, name, img, description, price, quantity, supplier } = props.item;
+    const { _id, name, img, description, price, quantity, supplier } = props.item;
     const navigate = useNavigate()
     const handleManageInventory = (id) => {
         navigate(`/inventory/${id}`);
@@ -22,7 +22,7 @@ const Item = (props) => {
 
                     </div>
                     <div className="card-footer">
-                        <button onClick={() => handleManageInventory(id)}>Manage</button>
+                        <button onClick={() => handleManageInventory(_id)}>Manage</button>
                     </div>
                 </div>
             </div>
