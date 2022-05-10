@@ -14,6 +14,7 @@ code {
 
 :root {
   --blue: #0c3273;
+  --white: #FFFFFF;
 }
 
 .inventory-items {
@@ -43,4 +44,40 @@ code {
   color: white;
   margin-top: 60px;
   padding: 50px;
+}
+
+@media only screen and (max-width:576px) {
+  .inventory-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    margin: 50px 50px;
+    padding: 5px;
+  }
+
+  .manageInventoryBtn {
+    width: 200px !important;
+    padding: 10px;
+  }
+
+  .smDevice {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px !important;
+  }
+
+  .responsiveFooter {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .others {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .responsive {
+    width: 350px !important;
+  }
+
 }

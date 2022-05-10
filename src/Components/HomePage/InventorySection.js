@@ -14,7 +14,7 @@ const InventorySection = () => {
                     items.map(item => <Item key={_id} item={item}></Item>).slice(1, 7)
                 }
             </div>
-            <button style={{ height: '40px', backgroundColor: 'var(--blue)' }} className='d-block mx-auto border-0 mb-5 w-25 rounded'><Link to='/inventory/:id' className='text-decoration-none text-white '>Manage Inventories</Link></button>
+            <button style={{ height: '40px', backgroundColor: 'var(--blue)' }} className='d-block mx-auto border-0 mb-5 w-25 rounded manageInventoryBtn'><Link to='/inventory/:id' className='text-decoration-none text-white '>Manage Inventories</Link></button>
         </div>
     );
 };

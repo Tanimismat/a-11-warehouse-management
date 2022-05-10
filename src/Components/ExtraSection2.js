@@ -5,9 +5,9 @@ const ExtraSection2 = () => {
         <div className='extraSection2 w-75 mx-auto border my-3 shadow rounded'>
             <h5 className='text-center my-3 p-3'>SEARCH OUR INVENTORY</h5>
 
-            <div className='d-flex my-4'>
+            <div className='d-flex my-4 smDevice'>
                 <div className='mx-3'>
-                    <div className='d-flex'>
+                    <div className='d-flex smDevice'>
                         <input className='fieldStyle' type="number" placeholder='Min Year' />
                         <p className='mx-1 my-0 p-0'>to</p>
                         <input className='fieldStyle' type="number" placeholder='Max Year' />
@@ -18,12 +18,12 @@ const ExtraSection2 = () => {
                 </div>
                 <div style={{ width: '1px', heitht: '100px', backgroundColor: 'lightgray' }} className=' me-3'></div>
                 <div>
-                    <div className='d-flex'>
+                    <div className='d-flex smDevice'>
                         <input className='fieldStyle' type="number" placeholder='Min Price' />
                         <p className='mx-1'>to</p>
                         <input className='fieldStyle' type="number" placeholder='Max price' />
                     </div>
-                    <div className='d-flex'>
+                    <div className='d-flex smDevice'>
                         <input className='fieldStyle' type="number" placeholder='Min Milage' />
                         <p className='mx-1'>to</p>
                         <input className='fieldStyle' type="number" placeholder='Max Milage' />
@@ -33,7 +33,7 @@ const ExtraSection2 = () => {
 
                 </div>
             </div>
-            <div className='d-flex justify-content-evenly mb-4'>
+            <div className='d-flex justify-content-evenly mb-4 smDevice'>
                 <span>
                     <input className='mx-2' type="checkbox" name="Certified" id="Certified" />
                     <label htmlFor="">Certified</label>

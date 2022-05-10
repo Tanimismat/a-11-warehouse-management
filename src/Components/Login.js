@@ -57,7 +57,7 @@ const Login = () => {
     }
 
     return (
-        <div className='w-50 mx-auto border shadow rounded p-5 m-5'>
+        <div className='w-50 mx-auto border shadow rounded p-5 m-5 responsive'>
             <h2 className='text-center mb-4'>Log in to Account</h2>
             <Form onClick={handleSubmit}>
 
@@ -77,7 +77,7 @@ const Login = () => {
                     variant="primary"
                     type="submit"
                     style={{ width: '200px', height: '40px', backgroundColor: 'var(--blue)' }}
-                    className='d-block mx-auto border-0 rounded text-white mb-3'
+                    className='d-block mx-auto border-0 rounded text-white mb-3 '
                 >Login
                 </Button>
 
