@@ -57,31 +57,38 @@ const Login = () => {
     }
 
     return (
-        <div>
-            <h2>login page</h2>
+        <div className='w-50 mx-auto border shadow rounded p-5 m-5'>
+            <h2 className='text-center mb-4'>Log in to Account</h2>
             <Form onClick={handleSubmit}>
+
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
+
                     <Form.Control ref={emailRef} type="email" placeholder="Enter email" />
-                    <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
-                    </Form.Text>
+
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
+
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" />
+
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Login
+
+                <Button
+                    variant="primary"
+                    type="submit"
+                    style={{ width: '200px', height: '40px', backgroundColor: 'var(--blue)' }}
+                    className='d-block mx-auto border-0 rounded text-white mb-3'
+                >Login
                 </Button>
+
             </Form>
-            <p className='text-danger'>New to.......? <Link to='/register' className='pe-auto' onClick={navigateToRegister}>Please Register</Link></p>
-            <p>Forget password? <button className='pe-auto' onClick={resetPassword}>Reset password</button></p>
+
+            <p className=''>New to Automotive ? <Link to='/register' className='pe-auto text-decoration-none' onClick={navigateToRegister}>Please Register</Link></p>
+
+            <p>Forget password? <button className='pe-auto border-0 bg-white text-primary' onClick={resetPassword}>Reset password</button></p>
+
             <SocialLogin></SocialLogin>
+
             <ToastContainer></ToastContainer>
         </div>
     );

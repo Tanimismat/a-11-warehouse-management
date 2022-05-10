@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import useItems from '../Hooks/useItems';
-import InventorySection from './HomePage/InventorySection';
+
 
 const ItemDetail = () => {
     const [items, setItems] = useItems();
@@ -14,6 +14,7 @@ const ItemDetail = () => {
     return (
         <div>
             <h3>Detail: {items.length}</h3>
+
             <div className="card mb-3 mx-auto" style={{ maxWidth: '75%' }}>
                 <div className="row g-0">
                     <div className="col-md-4">

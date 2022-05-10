@@ -45,34 +45,33 @@ const Register = () => {
 
 
     return (
-        <div>
-            <h3>register</h3>
+        <div className='w-50 mx-auto border shadow rounded p-5 m-5'>
+            <h3 className='text-center mb-4'>Register Your Account</h3>
             <Form onClick={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicName">
-                    <Form.Label>Name</Form.Label>
+
                     <Form.Control ref={nameRef} type="text" placeholder="Name" />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
+
                     <Form.Control ref={emailRef} type="email" placeholder="Enter email" />
-                    <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
-                    </Form.Text>
+
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
+
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
+
+                <Button
+                    style={{ width: '200px', height: '40px', backgroundColor: 'var(--blue)' }}
+                    className='d-block mx-auto border-0 rounded text-white mb-3'
+                    variant="primary" type="submit">
                     Register
                 </Button>
             </Form>
-            <p className='text-danger'>Already have an account ? <Link to='/login' className='pe-auto' onClick={navigateToLogin}>Please Login</Link></p>
+            <p>Already have an account ? <Link to='/login' className='pe-auto text-decoration-none' onClick={navigateToLogin}>Please Login</Link></p>
         </div>
     );
 };

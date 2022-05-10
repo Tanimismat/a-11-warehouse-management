@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     const year = new Date().getFullYear();
     return (
-        <div className='row g-0'>
+        <div className='row g-0 footer'>
             <div className='col-md-6'>
                 <h6>Automotive</h6>
                 <p>Copyright © {year}. All rights reserved.</p>
