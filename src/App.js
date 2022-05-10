@@ -9,6 +9,7 @@ import ManageInventory from './Components/ManageInventory';
 import NotFound from './Components/NotFound';
 import Register from './Components/Register';
 import RequireAuth from './Components/RequireAuth';
+import Subscribe from './Components/Subscribe';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         {/* <Route path='/add' element={}></Route>
         <Route path='/myitems' element={} ></Route> */}
         <Route path='/blog' element={<Blogs />}></Route>
+        <Route path='/subscribe' element={<Subscribe />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
         <Route path='*' element={<NotFound />}></Route>
